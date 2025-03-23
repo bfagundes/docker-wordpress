@@ -13,7 +13,7 @@ services:
       WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
     volumes:
       - wordpress_data:/var/www/html
-      - ./wp-content:/var/www/html/wp-content
+      - ../../../../WebDevelopment/wp-content:/var/www/html/wp-content
     networks:
       - wordpress_network
     depends_on:
