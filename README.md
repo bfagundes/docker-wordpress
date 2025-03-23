@@ -1,5 +1,4 @@
-# WordPress Docker Setup with MySQL & phpMyAdmin
-
+# WordPress Docker Setup
 This repository provides a Docker Compose setup to run a local WordPress environment with MySQL and phpMyAdmin support.
 
 ## Features
